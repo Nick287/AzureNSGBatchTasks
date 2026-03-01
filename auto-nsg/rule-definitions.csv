@@ -1,0 +1,13 @@
+﻿RuleCode,Priority,Direction,Access,Protocol,SourceAddressPrefix,SourcePortRange,DestinationAddressPrefix,DestinationPortRange,Description
+SSH-Office,100,Inbound,Allow,Tcp,"210.184.27.35,210.184.27.36",*,*,2022,Office Admin SSH
+Web-Public,130,Inbound,Allow,Tcp,Internet,*,*,8080,Public HTTP
+测试100M,110,Inbound,Allow,*,"210.184.27.35,
+202.66.127.35,
+202.66.127.36,
+202.66.127.37,
+202.66.127.38",*,*,*,"210.184.27.35   测试环境1
+202.66.127.35   测试环境2
+202.66.127.36    测试环境3
+202.66.127.37    测试环境4
+202.66.127.38    测试环境5"
+DB-Internal,120,Inbound,Allow,Tcp,10.0.1.0/24,*,*,1433,Internal DB Access

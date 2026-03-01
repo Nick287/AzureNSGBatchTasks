@@ -1,0 +1,11 @@
+﻿NsgName,ResourceGroupName,RuleCode
+mysql-rg-vnet-default-nsg-centralus,mysql-rg,SSH-Office
+mysql-rg-vnet-default-nsg-centralus,mysql-rg,Web-Public
+mysql-rg-vnet-default-nsg-centralus,mysql-rg,测试100M
+
+mysql-rg-vnet-default2-nsg-centralus,mysql-rg,Web-Public
+mysql-rg-vnet-default2-nsg-centralus,mysql-rg,SSH-Office
+
+VM001-nsg,VM001,SSH-Office
+VM001-nsg,VM001,DB-Internal
+VM001-nsg,VM001,Web-Public
